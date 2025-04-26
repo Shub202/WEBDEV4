@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Full Project Implementation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="site-title">
+                <a href="#hero">Full Project Implementation</a>
+            </div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <h1>Hi, Welcome to My Full Project Implementation  Webpage....!!!</h1>
+            <p class="subtitle">TO-Do List | Product Page | AI Model Showcase | Contact Form</p>
+            <div class="hero-buttons">
+                 <a href="#projects" class="btn primary-btn">View Projects</a>
+                 <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+     <section id="about" class="section about-section">
+         <div class="container">
+             <div class="about-text">
+                 <h2>About Me...!!!</h2>
+                 <p> Hi, I’m Shubham Kumar, a passionate B.Tech student specializing in Computer Science and Engineering (Artificial Intelligence and Machine Learning) at Asansol Engineering College. 
+                    I'm deeply interested in technology, especially in areas like web development, AI, and software engineering. 
+                    Currently, I’m sharpening my skills through a web development where I work with HTML, CSS, and JavaScript, building responsive and interactive projects like personal portfolios, note-taking apps, and product listing pages. 
+                    Beyond coding, I love  playing badminton, which helps me stay creative and energetic. 
+                    I’m always excited to learn, improve, and take on new challenges that help me grow as a developer and problem solver.</p> </div>
+             </div>
+     </section>
+
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-icon"></div>
+                    <h3>Check-Out Our To-Do List</h3>
+                    <p>A simple, interactive web application built with vanilla JavaScript to help users manage their daily tasks, utilizing local storage for persistence.</p>
+                    <a href="todo.html" class="btn secondary-btn">View Project</a>
+                    </article>
+
+                <article class="project-card">
+                    <h3>Check-Out Our Product Page</h3>
+                    <p>A front-end project demonstrating dynamic rendering, filtering, and sorting of a product list using JavaScript, now enhanced with product images and details.</p>
+                    <a href="products.html" class="btn secondary-btn">View Project</a>
+                     </article>
+
+                <article class="project-card">
+                    <h3>AI Model Showcase</h3>
+                    <p>Demonstrating a machine learning model for [mention application, e.g., image classification], showcasing data preprocessing and model evaluation.</p>
+                    <a href="#" class="btn secondary-btn">Learn More</a>
+                 </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2>Contact Form</h2>
+            <p class="contact-intro">Have a question or want to collaborate? Send me a message!</p>
+
+            <div class="contact-content">
+                 <div class="contact-form-container">
+                     <form action="YOUR_BACKEND_SCRIPT_URL" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                 </div>
+
+                 <div class="contact-info">
+                     <h3>Connect Me</h3>
+                     <p>Email: <a href="mailto:shubham@example.com">shubham@example.com</a></p>
+                     <div class="social-links">
+                         <a href="YOUR_LINKEDIN_URL" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin fa-2x"></i></a>
+                         <a href="YOUR_GITHUB_URL" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github-square fa-2x"></i></a>
+                         </div>
+                      <p class="location"><i class="fas fa-map-marker-alt"></i> Hazaribagh - 825301 Jharkhand , India</p>
+                 </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Shubham Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

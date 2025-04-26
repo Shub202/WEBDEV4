@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="products-page">
+
+    <header class="site-header no-shadow"> <div class="container">
+            <h2 class="page-title">Our Products</h2>
+            <p><a href="index.html">&larr; Back to Portfolio</a></p>
+        </div>
+    </header>
+
+
+    <div class="container section-content"> <div class="filters-sort">
+            <label>Category:
+                <select id="categoryFilter">
+                    <option value="all">All</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="books">Books</option>
+                </select>
+            </label>
+
+            <label>Sort by:
+                <select id="sort">
+                    <option value="default">Default</option>
+                    <option value="price">Price</option>
+                    <option value="rating">Rating</option>
+                </select>
+            </label>
+        </div>
+
+        <ul id="productList" class="product-grid-page">
+            </ul>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Shubham Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="products.js"></script>
+</body>
+</html>
